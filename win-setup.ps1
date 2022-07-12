@@ -13,6 +13,7 @@ winget install -e --id NirSoft.ShellExView
 winget install -e --id Oracle.VirtualBox
 winget install -e --id 7zip.7zip
 winget install -e --id DBBrowserForSQLite.DBBrowserForSQLite
+winget install -e --id python
 
 git clone https://github.com/mentebinaria/retoolkit
 git clone https://github.com/mac4n6/APOLLO
