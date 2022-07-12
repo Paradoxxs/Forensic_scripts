@@ -14,8 +14,12 @@ winget install -e --id Oracle.VirtualBox
 winget install -e --id 7zip.7zip
 winget install -e --id DBBrowserForSQLite.DBBrowserForSQLite
 winget install -e --id python
+winget install -e --id mentebinaria.retoolkit
+winget install -e --id Telegram.TelegramDesktop
+winget install -e --id Discord.Discord
+winget install -e --id BraveSoftware.BraveBrowser
 
-git clone https://github.com/mentebinaria/retoolkit
+
 git clone https://github.com/mac4n6/APOLLO
 git clone https://github.com/abrignoni/ALEAPP
 git clone https://github.com/abrignoni/iLEAPP
