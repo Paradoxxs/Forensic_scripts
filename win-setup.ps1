@@ -28,3 +28,5 @@ git clone https://github.com/mac4n6/APOLLO
 git clone https://github.com/abrignoni/ALEAPP
 git clone https://github.com/abrignoni/iLEAPP
 Invoke-WebRequest https://f001.backblazeb2.com/file/EricZimmermanTools/net6/All_6.zip -usebasicparsing
+
+wsl --install
