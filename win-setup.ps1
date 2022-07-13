@@ -16,9 +16,10 @@ winget install -e --id DBBrowserForSQLite.DBBrowserForSQLite
 winget install -e --id python
 winget install -e --id mentebinaria.retoolkit
 winget install -e --id Telegram.TelegramDesktop
-winget install -e --id Discord.Discord
 winget install -e --id BraveSoftware.BraveBrowser
-
+winget install -e --id Mozilla.Firefox
+winget install -e --id SleuthKit.Autopsy
+winget install -e --id kalilinux.kalilinux
 
 git clone https://github.com/mac4n6/APOLLO
 git clone https://github.com/abrignoni/ALEAPP
