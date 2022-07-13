@@ -1,0 +1,21 @@
+from telethon.sync import TelegramClient
+import pandas as pd
+
+api_id = ""
+api_hash = ""
+
+chats = ['test']
+
+client =  TelegramClient('python', api_id, api_hash)
+
+df = pd.DataFrame()
+
+for chat in chats:
+    with TelegramClient('python', api_id, api_hash) as client:
+        for message in client.iter_messages(chat, reverse=True):
+            data = { "group" : chat, "sender" : message.sender_id, "text" : message.text, "date" : message.date}
+
+            temp_df = pd.DataFrame(data)
+            df = df.append(temp_df)
+
+df.to_csv("csv path", index=False)
