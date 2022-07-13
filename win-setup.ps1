@@ -20,6 +20,9 @@ winget install -e --id BraveSoftware.BraveBrowser
 winget install -e --id Mozilla.Firefox
 winget install -e --id SleuthKit.Autopsy
 winget install -e --id kalilinux.kalilinux
+winget install -e --id opticos.openinwsl
+winget install -e --id opticos.gwsl
+
 
 git clone https://github.com/mac4n6/APOLLO
 git clone https://github.com/abrignoni/ALEAPP
